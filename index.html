@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>SNAKE</title>
+	<style>
+		body {
+			margin: 10px;
+		}
+		input {
+			display: block;
+			margin-bottom: 10px;
+			border: 0;
+			outline: none;
+		}
+		canvas {
+			float: left;
+			margin-right: 50px;
+		}
+		#score {
+			font-size: 20px;
+			color: #cc0000;
+		}
+	</style>
+</head>
+<body>
+	
+	<canvas id="canvas" width="300" height="300" style="border: 1px solid red"></canvas>
+
+	<input type="text" value="0" id="score" readonly="">
+	<input type="text" value="0" id="leng" readonly="">
+	<input type="text" value="0" id="speed" readonly="">
+	<input type="text" value="0" id="pos" readonly="">
+	<input type="text" value="0" id="steps" readonly="">
+
+	<!-- <button onclick="gameRestart()">restart</button> -->
+	
+<table id="table-m">
+	<thead>
+		<th colspan="2">Score</th>
+	</thead>
+	<tbody>
+		<tr><td>1</td><td> :  </td><td class="td"></td></tr>
+		<tr><td>2</td><td> :  </td><td class="td"></td></tr>
+		<tr><td>3</td><td> :  </td><td class="td"></td></tr>
+		<tr><td>4</td><td> :  </td><td class="td"></td></tr>
+		<tr><td>5</td><td> :  </td><td class="td"></td></tr>
+		<tr><td>6</td><td> :  </td><td class="td"></td></tr>
+		<tr><td>7</td><td> :  </td><td class="td"></td></tr>
+		<tr><td>8</td><td> :  </td><td class="td"></td></tr>
+		<tr><td>9</td><td> :  </td><td class="td"></td></tr>
+		<tr><td>10</td><td> :  </td><td class="td"></td></tr>
+	</tbody>
+	
+</table>
+
+	<script src="game.js"></script>
+</body>
+</html>
